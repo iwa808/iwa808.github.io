@@ -1,0 +1,21 @@
+# Site settings
+title: Spouse Code
+header-img: img/home-bg.png
+email: sallena808@gmail.com
+copyright_name: iwa808
+description: > # this means to ignore newlines until "baseurl:"
+  A military spouse's journey into coding 
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: SIwalani808
+github_username:  iwa808
+learn_profile: iwa808
+email_username: sallena808@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
